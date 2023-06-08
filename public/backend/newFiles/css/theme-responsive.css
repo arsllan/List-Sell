@@ -1,0 +1,23 @@
+@media (min-width: 1900px) {
+    .login-footer{ bottom: -230px;}
+    /* .validate-form{ width: calc(100% - 20%); margin: auto;} */
+}
+
+
+@media (max-width: 1199px) {
+    .purple-box{ margin-bottom: 30px;}
+    .purple-dashboard .purple-box::after{ display: none;}
+    .pricing-dashboard-box{ margin-bottom: 30px;}
+}
+
+@media (max-width: 991px) {
+    .nav-tabs .nav-item{ margin-bottom: 5px;}
+    .pos-purple-bar .form-group{ margin: 0;}
+    
+    .navbar-nav{
+        flex-direction: row-reverse;
+    }
+    .c-header-icon{
+         margin-right: auto;
+    }
+}

@@ -1,0 +1,445 @@
+@extends('layouts.backendapp')
+@section('content')
+            <div class="l-main">
+                <div class="content-wrapper">
+                    <div class="container-fluid">
+                        <div class="content-wrapper-content">
+                            <div class="row align-items-center">
+                                <div class="col-xl-8 col-lg-8 col-md-6 col-6">
+                                    <h4>Setting</h4>
+                                </div>
+                                <div class="col-xl-4 col-lg-4 col-md-6 col-6 text-right">
+                                    <div class="dropdown">
+                                        <button class="btn btn-theme rounded-border dropdown-toggle p-l-25 p-r-25" type="button"data-toggle="dropdown">en</button>
+                                        <div class="dropdown-menu">
+                                            <li><a href="" class="d-block p-l-15 p-r-15"><img class="flags" src="files/frontend/images/flags-de-1.png" alt="de" title="de"> de</a></li>
+                                            <li><a href="" class="d-block p-l-15 p-r-15"><img class="flags" src="files/frontend/images/flags-de-2.png" alt="de" title="de"> en</a></li>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row m-t-10">
+                                <div class="col-xl-12">
+                                    <form>
+                                        <div class="card v-label v-pills-content-tabs">
+                                            <div class="row">
+                                                <div class="col-xl-2">
+                                                    <ul class="nav flex-column nav-pills" id="v-pills-tab" role="tablist" aria-orientation="vertical">
+                                                        <li><a class="nav-link" id="one-tab-1" data-toggle="pill" href="#one-1" role="tab">Website</a></li>
+                                                        <li><a class="nav-link" id="one-tab-2" data-toggle="pill" href="#one-2" role="tab">Map API Keys</a></li>
+                                                        <li><a class="nav-link" id="one-tab-3" data-toggle="pill" href="#one-3" role="tab">Google Recaptcha Settings</a></li>
+                                                        <li><a class="nav-link" id="one-tab-4" data-toggle="pill" href="#one-4" role="tab">Printing Options</a></li>
+                                                        <li><a class="nav-link" id="one-tab-5" data-toggle="pill" href="#one-5" role="tab">Login & Signup</a></li>
+                                                        <li><a class="nav-link" id="one-tab-6" data-toggle="pill" href="#one-6" role="tab">Terms and Conditions</a></li>
+                                                        <li><a class="nav-link active" id="one-tab-7" data-toggle="pill" href="#one-7" role="tab">Reviews</a></li>
+                                                        <li><a class="nav-link" id="one-tab-8" data-toggle="pill" href="#one-8" role="tab">Website Security</a></li>
+                                                        <li><a class="nav-link" id="one-tab-9" data-toggle="pill" href="#one-9" role="tab">Website Timezone</a></li>
+                                                        <li><a class="nav-link" id="one-tab-10" data-toggle="pill" href="#one-10" role="tab">Website Ordering</a></li>
+                                                        <li><a class="nav-link" id="one-tab-11" data-toggle="pill" href="#one-11" role="tab">Menu Options</a></li>
+                                                        <li><a class="nav-link" id="one-tab-12" data-toggle="pill" href="#one-12" role="tab">Order Status</a></li>
+                                                        <li><a class="nav-link" id="one-tab-13" data-toggle="pill" href="#one-13" role="tab">Merchant Registration</a></li>
+                                                        <li><a class="nav-link" id="one-tab-14" data-toggle="pill" href="#one-14" role="tab">Address & Currency</a></li>
+                                                        <li><a class="nav-link" id="one-tab-15" data-toggle="pill" href="#one-15" role="tab">Address & Currency</a></li>
+                                                        <li><a class="nav-link" id="one-tab-16" data-toggle="pill" href="#one-16" role="tab">Home Search Area</a></li>
+                                                        <li><a class="nav-link" id="one-tab-17" data-toggle="pill" href="#one-17" role="tab">Order Cancellation</a></li>
+                                                        <li><a class="nav-link" id="one-tab-18" data-toggle="pill" href="#one-18" role="tab">Book a Table</a></li>
+                                                        <li><a class="nav-link" id="one-tab-19" data-toggle="pill" href="#one-19" role="tab">Others</a></li>
+                                                        <li><a class="nav-link" id="one-tab-19" data-toggle="pill" href="#one-20" role="tab">Universal Printer Settings</a></li>
+                                                    </ul>
+                                                </div>
+                                                <div class="col-xl-10">
+                                                    <div class="tab-content" id="v-pills-tabContent">
+                                                        <div class="tab-pane fade" id="one-1" role="tabpanel" aria-labelledby="one-tab-1">
+                                                            <div class="row m-b-30">
+                                                                <div class="col-xl-6 col-lg-6 mr-auto ml-auto m-b-30">
+                                                                    <div class="form-group">
+                                                                        <label><strong>Title</strong></label>
+                                                                        <input type="text" class="form-control rounded-border2" name="" placeholder="LieferAgento">
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                            <div class="row">
+                                                                <div class="col-xl-6 col-lg-6 mr-auto ml-auto">
+                                                                    <div class="row">
+                                                                        <div class="col-12 m-b-30">
+                                                                            <div class="align-items-center d-flex justify-content-between">
+                                                                                <div class="d-block custom-all-text">
+                                                                                    <h6>Desktop Website Logo</h6>
+                                                                                    <small>352 x 140</small>
+                                                                                </div>
+                                                                                <div class="custom-file m-0 w-25">
+                                                                                    <input type="file" class="custom-file-input">
+                                                                                    <label class="custom-file-label btn"></label>
+                                                                                  </div>
+                                                                            </div>
+                                                                            <div class="d-block img-1539756728 text-center m-t-30 m-b-20">
+                                                                                <img src="files/frontend/images/1539756728-lieferAgento.jpg" class="img-fluid" alt="">
+                                                                            </div>
+                                                                            <a href="" class="text-light-danger">Remove Image</a>
+                                                                        </div>
+                                                                        <div class="col-12">
+                                                                            <div class="align-items-center d-flex justify-content-between">
+                                                                                <div class="d-block custom-all-text">
+                                                                                    <h6>Mobile App Logo</h6>
+                                                                                </div>
+                                                                                <div class="custom-file m-0 w-25">
+                                                                                    <input type="file" class="custom-file-input">
+                                                                                    <label class="custom-file-label btn"></label>
+                                                                                  </div>
+                                                                            </div>
+                                                                            <div class="d-block img-1539756728 text-center m-t-30 m-b-20">
+                                                                                <img src="files/frontend/images/1539756728-lieferAgento.jpg" class="img-fluid" alt="">
+                                                                            </div>
+                                                                            <a href="" class="text-light-danger">Remove Image</a>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                        <div class="tab-pane fade" id="one-2" role="tabpanel" aria-labelledby="one-tab-2">
+                                                            <div class="row m-b-30">
+                                                                <div class="col-xl-6 col-lg-6 mr-auto ml-auto m-b-30">
+                                                                    <div class="form-group">
+                                                                        <label><strong>Choose Map Provider</strong></label>
+                                                                        <select class="form-control rounded-border2">
+                                                                            <option>1</option>
+                                                                            <option>2</option>
+                                                                            <option>3</option>
+                                                                            <option>4</option>
+                                                                            <option>5</option>
+                                                                        </select>
+                                                                    </div>
+                                                                    <div class="custom-all-text m-t-40">
+                                                                        <h6>Google Map</h6>
+                                                                        <div class="form-group m-t-10">
+                                                                            <label><strong>Geocoding API Key</strong></label>
+                                                                            <input type="text" class="form-control rounded-border2" name="" placeholder="AIzaSyA5GPtoXT-IdqsYOT3kbOYe5IESvx6xcWc">
+                                                                            <small><strong class="text-light-danger">Note:</strong> these section is now mandatory in order for your search functions will work 100% enabled Google Maps Distance Matrix API, Google Maps Geocoding API and Google Maps JavaScript API in your google developer account</small>
+                                                                        </div>
+                                                                    </div>
+                                                                    <div class="form-group m-t-40">
+                                                                        <label><strong>Method of distance calculation</strong></label>
+                                                                        <select class="form-control rounded-border2">
+                                                                            <option>Transit</option>
+                                                                            <option>2</option>
+                                                                            <option>3</option>
+                                                                            <option>4</option>
+                                                                            <option>5</option>
+                                                                        </select>
+                                                                    </div>
+                                                                    <div class="form-check m-t-30">
+                                                                        <input class="form-check-input" type="checkbox" id="inlineCheckbox1" value="option1">
+                                                                        <label class="form-check-label" for="inlineCheckbox1">Use CURL?</label>
+                                                                    </div>
+                                                                    <div class="btn-group m-t-30">
+                                                                        <a href="" class="btn btn-next rounded-border">CLick here to test API</a>
+                                                                    </div>
+                                                                    <div class="custom-all-text m-t-40">
+                                                                        <h6>Mapbox</h6>
+                                                                        <div class="form-group m-t-20">
+                                                                            <label><strong>Access Token</strong></label>
+                                                                            <input type="text" class="form-control rounded-border2" name="" placeholder="LieferAgento">
+                                                                        </div>
+                                                                    </div>
+                                                                    <div class="form-group m-t-40">
+                                                                        <label><strong>Default Zoom</strong></label>
+                                                                        <select class="form-control rounded-border2">
+                                                                            <option>Transit</option>
+                                                                            <option>2</option>
+                                                                            <option>3</option>
+                                                                            <option>4</option>
+                                                                            <option>5</option>
+                                                                        </select>
+                                                                    </div>
+                                                                    <div class="btn-group m-t-30">
+                                                                        <a href="" class="btn btn-next rounded-border">CLick here to test API</a>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                        <div class="tab-pane fade" id="one-3" role="tabpanel" aria-labelledby="one-tab">
+                                                            <div class="custom-all-text">
+                                                                <h6>These section is optional</h6>
+                                                                <div class="row">
+                                                                    <div class="col-xl-4 col-lg-4">
+                                                                        <div class="form-group m-t-20">
+                                                                            <label><strong>Site Key</strong></label>
+                                                                            <input type="text" class="form-control rounded-border2" name="" placeholder="">
+                                                                        </div>
+                                                                        <div class="form-check m-b-20">
+                                                                            <input class="form-check-input" type="checkbox" value="" required>
+                                                                            <label class="form-check-label">Enable Customer signup</label>
+                                                                        </div>
+                                                                        <div class="form-check">
+                                                                            <input class="form-check-input" type="checkbox" value="" required>
+                                                                            <label class="form-check-label">Enable Merchant login</label>
+                                                                        </div>
+                                                                    </div>
+                                                                    <div class="col-xl-4 col-lg-4">
+                                                                        <div class="form-group m-t-20">
+                                                                            <label><strong>Secret Key</strong></label>
+                                                                            <input type="text" class="form-control rounded-border2" name="" placeholder="">
+                                                                        </div>
+                                                                        <div class="form-check m-b-20">
+                                                                            <input class="form-check-input" type="checkbox" value="" required>
+                                                                            <label class="form-check-label">Enable Merchant signup</label>
+                                                                        </div>
+                                                                        <div class="form-check">
+                                                                            <input class="form-check-input" type="checkbox" value="" required>
+                                                                            <label class="form-check-label">Enable Admin login</label>
+                                                                        </div>
+                                                                    </div>
+                                                                    <div class="col-xl-4 col-lg-4">
+                                                                        <div class="form-row m-t-20 m-b-20 align-items-center">
+                                                                            <div class="col-auto">
+                                                                                <label><strong>Language</strong></label>
+                                                                                <input type="text" class="form-control rounded-border2" name="" placeholder="">
+                                                                            </div>
+                                                                            <div class="col-auto">
+                                                                                <small>default is = en</small>
+                                                                            </div>
+                                                                        </div>
+                                                                        <div class="form-check m-b-20">
+                                                                            <input class="form-check-input" type="checkbox" value="" required>
+                                                                            <label class="form-check-label">Enable Customer login</label>
+                                                                        </div>
+                                                                        <div class="form-check">
+                                                                            <input class="form-check-input" type="checkbox" value="" required>
+                                                                            <label class="form-check-label">Enable Order</label>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                        <div class="tab-pane fade" id="one-4" role="tabpanel" aria-labelledby="one-tab-4">
+                                                            <div class="custom-all-text">
+                                                                <div class="row align-items-center">
+                                                                    <div class="col-xl-4 col-lg-4">
+                                                                        <div class="form-row m-t-20 m-b-20 align-items-center">
+                                                                            <div class="col-auto">
+                                                                                <label><strong>Receipt Width</strong></label>
+                                                                                <input type="text" class="form-control rounded-border2" name="" placeholder="">
+                                                                            </div>
+                                                                            <div class="col-auto">
+                                                                                <small>px</small>
+                                                                            </div>
+                                                                        </div>
+                                                                    </div>
+                                                                    <div class="col-xl-4 col-lg-4">
+                                                                        <div class="form-row m-t-20 m-b-20 align-items-center">
+                                                                            <div class="col-auto">
+                                                                                <label><strong>Font size</strong></label>
+                                                                                <input type="text" class="form-control rounded-border2" name="" placeholder="">
+                                                                            </div>
+                                                                            <div class="col-auto">
+                                                                                <small>px</small>
+                                                                            </div>
+                                                                        </div>
+                                                                    </div>
+                                                                    <div class="col-xl-4 col-lg-4">
+                                                                        <div class="form-check">
+                                                                            <input class="form-check-input" type="checkbox" value="" required>
+                                                                            <label class="form-check-label">Enabled logo on receipt?</label>
+                                                                        </div>
+                                                                    </div>
+                                                                    <div class="col-4 m-t-30">
+                                                                        <div class="align-items-center d-flex justify-content-between">
+                                                                            <div class="d-block custom-all-text">
+                                                                                <h6>Desktop Website Logo</h6>
+                                                                                <small>352 x 140</small>
+                                                                            </div>
+                                                                            <div class="custom-file m-0 w-25">
+                                                                                <input type="file" class="custom-file-input">
+                                                                                <label class="custom-file-label btn"></label>
+                                                                              </div>
+                                                                        </div>
+                                                                        <div class="d-block img-1539756728 text-center m-t-30 m-b-20">
+                                                                            <img src="files/frontend/images/1539756728-lieferAgento.jpg" class="img-fluid" alt="">
+                                                                        </div>
+                                                                        <a href="" class="text-light-danger rounded-border">Remove Image</a>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                        <div class="tab-pane fade" id="one-5" role="tabpanel" aria-labelledby="one-tab-5">
+                                                            <div class="row m-b-30">
+                                                                <div class="col-xl-4 col-lg-4">
+                                                                    <div class="form-check">
+                                                                        <input class="form-check-input" type="checkbox" value="" required>
+                                                                        <label class="form-check-label">Enabled Mobile Verification</label>
+                                                                    </div>
+                                                                </div>
+                                                                <div class="col-xl-4 col-lg-4">
+                                                                    <div class="form-check">
+                                                                        <input class="form-check-input" type="checkbox" value="" required>
+                                                                        <label class="form-check-label">Enabled Email Verification</label>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                            <div class="custom-all-text m-t-40">
+                                                                <h6>Registration custom fields</h6>
+                                                                <div class="row m-b-30">
+                                                                    <div class="col-xl-6 col-lg-6">
+                                                                        <div class="form-group m-t-20">
+                                                                            <label><strong>Add New Custom Field</strong></label>
+                                                                            <input type="text" class="form-control rounded-border2" name="" placeholder="Field name">
+                                                                        </div>
+                                                                    </div>
+                                                                    <div class="col-xl-6 col-lg-6">
+                                                                        <div class="form-group m-t-20">
+                                                                            <label><strong>Add New Custom Field</strong></label>
+                                                                            <input type="text" class="form-control rounded-border2" name="" placeholder="Field name">
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                                <h6>Block email address list</h6>
+                                                                <div class="row">
+                                                                    <div class="col-xl-6 col-lg-6">
+                                                                        <div class="form-group m-t-20">
+                                                                            <input type="email" class="form-control rounded-border2" name="" placeholder="username@gmail.com">
+                                                                            <small>Multiple email separated by comma</small>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                                <h6>Block mobile number list</h6>
+                                                                <div class="row">
+                                                                    <div class="col-xl-6 col-lg-6">
+                                                                        <div class="form-group m-t-20">
+                                                                            <input type="text" class="form-control rounded-border2" name="" placeholder="">
+                                                                            <small>Multiple email separated by comma</small>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                        <div class="tab-pane fade" id="one-6" role="tabpanel" aria-labelledby="one-tab-6">
+                                                            <div class="col-xl-6 col-lg-6">
+                                                                <div class="form-check">
+                                                                    <input class="form-check-input" type="checkbox" value="" required>
+                                                                    <label class="form-check-label">Enabled On Merchant Signup?</label>
+                                                                </div>
+                                                                <div class="form-group m-t-20">
+                                                                    <label><strong>URL Link</strong></label>
+                                                                    <input type="text" class="form-control rounded-border2" name="" placeholder="">
+                                                                </div>
+                                                            </div>
+                                                            <div class="col-xl-6 col-lg-6">
+                                                                <div class="form-check">
+                                                                    <input class="form-check-input" type="checkbox" value="" required>
+                                                                    <label class="form-check-label">Enabled On Customer Signup?</label>
+                                                                </div>
+                                                                <div class="form-group m-t-20">
+                                                                    <label><strong>URL Link</strong></label>
+                                                                    <input type="text" class="form-control rounded-border2" name="" placeholder="">
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                        <div class="tab-pane fade show active" id="one-7" role="tabpanel" aria-labelledby="one-tab-7">
+                                                            <div class="row">
+                                                                <div class="col-xl-4 col-lg-4">
+                                                                    <div class="form-group">
+                                                                        <label><strong>Review Type</strong></label>
+                                                                        <select class="form-control rounded-border2">
+                                                                            <option>1</option>
+                                                                            <option>2</option>
+                                                                            <option>3</option>
+                                                                            <option>4</option>
+                                                                            <option>5</option>
+                                                                        </select>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                            <div class="row m-t-30 custom-all-text">
+                                                                <div class="col-xl-6 col-lg-6">
+                                                                    <h6>Review per order Settings</h6>
+                                                                </div>
+                                                                <div class="col-xl-6 col-lg-6">
+                                                                    <div class="form-group">
+                                                                        <label><strong>Earn review status</strong></label>
+                                                                        <select class="form-control rounded-border2">
+                                                                            <option>Select some options</option>
+                                                                            <option>2</option>
+                                                                            <option>3</option>
+                                                                            <option>4</option>
+                                                                            <option>5</option>
+                                                                        </select>
+                                                                        <small>customer will earn points based on this status</small>
+                                                                    </div>
+                                                                </div>
+                                                                <div class="col-xl-6 col-lg-6">
+                                                                    <div class="form-group">
+                                                                        <label><strong>Publish review</strong></label>
+                                                                        <select class="form-control rounded-border2">
+                                                                            <option>Select some options</option>
+                                                                            <option>2</option>
+                                                                            <option>3</option>
+                                                                            <option>4</option>
+                                                                            <option>5</option>
+                                                                        </select>
+                                                                        <small>publish review based on this order status</small>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                            <div class="m-t-30">
+                                                                <div class="custom-all-text"><h6>Review merchant Settings</h6></div>
+                                                                <div class="row m-t-30">
+                                                                    <div class="col-xl-4 col-lg-4">
+                                                                        <div class="form-check">
+                                                                            <input class="form-check-input" type="checkbox" value="" required>
+                                                                            <label class="form-check-label">Enabled On Merchant Signup?</label>
+                                                                        </div>
+                                                                    </div>
+                                                                    <div class="col-xl-4 col-lg-4">
+                                                                        <div class="form-check">
+                                                                            <input class="form-check-input" type="checkbox" value="" required>
+                                                                            <label class="form-check-label">Enabled On Merchant Signup?</label>
+                                                                        </div>
+                                                                    </div>
+                                                                    <div class="col-xl-6 col-lg-6">
+                                                                        <div class="form-group m-t-20">
+                                                                            <label><strong>Order status</strong></label>
+                                                                            <select class="form-control rounded-border2">
+                                                                                <option>Select some options</option>
+                                                                                <option>2</option>
+                                                                                <option>3</option>
+                                                                                <option>4</option>
+                                                                                <option>5</option>
+                                                                            </select>
+                                                                            <small>customer can review the order based on this order status</small>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                        <div class="tab-pane fade" id="one-8" role="tabpanel" aria-labelledby="one-tab-8">8</div>
+                                                        <div class="tab-pane fade" id="one-9" role="tabpanel" aria-labelledby="one-tab-9">9</div>
+                                                        <div class="tab-pane fade" id="one-10" role="tabpanel" aria-labelledby="one-tab-10">10</div>
+                                                        <div class="tab-pane fade" id="one-11" role="tabpanel" aria-labelledby="one-tab-11">11</div>
+                                                        <div class="tab-pane fade" id="one-12" role="tabpanel" aria-labelledby="one-tab-12">12</div>
+                                                        <div class="tab-pane fade" id="one-13" role="tabpanel" aria-labelledby="one-tab-13">13</div>
+                                                        <div class="tab-pane fade" id="one-14" role="tabpanel" aria-labelledby="one-tab-14">14</div>
+                                                        <div class="tab-pane fade" id="one-15" role="tabpanel" aria-labelledby="one-tab-15">15</div>
+                                                        <div class="tab-pane fade" id="one-16" role="tabpanel" aria-labelledby="one-tab-16">16</div>
+                                                        <div class="tab-pane fade" id="one-17" role="tabpanel" aria-labelledby="one-tab-17">17</div>
+                                                        <div class="tab-pane fade" id="one-18" role="tabpanel" aria-labelledby="one-tab-18">18</div>
+                                                        <div class="tab-pane fade" id="one-19" role="tabpanel" aria-labelledby="one-tab-19">19</div>
+                                                        <div class="tab-pane fade" id="one-20" role="tabpanel" aria-labelledby="one-tab-20">20</div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </form>
+                                    <div class="panel-footer pagination-all">
+                                        <div class="row align-items-center">
+                                            <div class="col-xl-12 text-right">
+                                                <a href="" class="btn btn-theme rounded-border bg-light-success-bg text-white p-l-20 p-r-20">Save</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+@endsection
